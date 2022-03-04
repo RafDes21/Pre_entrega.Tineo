@@ -50,7 +50,7 @@ const opcionCasos = parseInt(prompt("elija una opción \n1° Resultado y derivac
 
 switch (opcionCasos) {
     case 1:
-        alert("     Resultados y Derivaciones")
+    alert("     Resultados y Derivaciones")
         negativos.forEach(element => {
             const numeroRandom = Math.round(Math.random() * 4)
 
@@ -59,7 +59,7 @@ switch (opcionCasos) {
         });
         positivos.forEach(element => {
             const numeroRandom = Math.round(Math.random() * 4)
-            alert(` Sr. ${element}\n resultado: Positvo.\n Debe dirigirse a ${hoteles[numeroRandom]}  donde estará aislado por 14 días\n`)
+            alert(` Sr. ${element}\n resultado: Positivo.\n Debe dirigirse a ${hoteles[numeroRandom]}  donde estará aislado por 14 días\n`)
 
         });
 
