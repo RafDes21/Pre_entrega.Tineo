@@ -52,13 +52,13 @@ switch (opcionCasos) {
     case 1:
         alert("     Resultados y Derivaciones")
         negativos.forEach(element => {
-            const numeroRandom = Math.round(Math.random() * 5)
+            const numeroRandom = Math.round(Math.random() * 4)
 
             alert(` Sr. ${element}\n resultado: Negativo.\n Acerque a ${direccion[numeroRandom]} para vacunarse entre las 08:00 hrs a 13:00 hrs\n`)
 
         });
         positivos.forEach(element => {
-            const numeroRandom = Math.round(Math.random() * 5)
+            const numeroRandom = Math.round(Math.random() * 4)
             alert(` Sr. ${element}\n resultado: Positvo.\n Debe dirigirse a ${hoteles[numeroRandom]} donde estará aislado por 14 días\n`)
 
         });
