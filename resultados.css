@@ -1,0 +1,48 @@
+.mostrarDatos {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.result {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+#result {
+    border-radius: 9px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid yellow;
+    margin-bottom: 2%;
+
+}
+
+#lista {
+
+
+    background-color: black;
+
+}
+
+li {
+    font-size: 17px;
+    list-style: none;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 2%;
+}
+
+@media screen and (min-width:720px) {
+    li {
+        font-size: 20px;
+        list-style: none;
+        color: white;
+        text-shadow: 2px 2px black;
+        margin: 0 27%;
+    }
+}
